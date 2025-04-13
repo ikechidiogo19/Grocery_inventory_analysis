@@ -25,7 +25,7 @@ By analyzing this dataset, we aim to identify high-performing products, underper
 
 ## 📂 Dataset
 
-- **Source:** [Link to dataset]
+- **Source:** <a href ='https://github.com/ikechidiogo19/Grocery_inventory_analysis/blob/main/Grocery_Inventory_and_Sales_Dataset.csv'> Dataset </a>
 - **Format:** CSV.
 ---
 
