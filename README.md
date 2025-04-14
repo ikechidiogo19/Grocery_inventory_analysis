@@ -44,7 +44,6 @@ By analyzing this dataset, we aim to identify high-performing products, underper
 
 ## 🛠 Methodology
 
-Outline your process:
 - **Data Cleaning** (Handled missing values, checked for duplicates, standardized the data types)
 - **Exploratory Data Analysis** (EDA)
 - created a new column 'Expired' and compared the expiration date with the last order date
