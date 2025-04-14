@@ -1,7 +1,7 @@
 
-# 📊 Grocery inventory analysis
+# 📊 Inventory and Sales  analysis
 
-The objective of this analysis was to gain actionable insights into stock management, supplier performance, and sales trends using real-time product data. The analysis was conducted across key dimensions such as product performance (sales and turnover), supplier effectiveness, inventory efficiency, and stock expiry.
+This project involves analyzing inventory and sales data from a retail supply chain system, with the aim of identifying operational inefficiencies, sales performance trends, supplier reliability, and potential revenue opportunities. The dataset contains critical information on product categories, stock levels, supplier details, expiration dates, and sales performance metrics
 
 ---
 
@@ -91,18 +91,22 @@ FROM Grocery;
 
 ## 📌 Findings
 
-- low price tier sold the most while Premium price tier sold the least 
-- Katz was the supplier that provided the best selling product
-- Zoozzy, Twinte, Skyvu, Tekfly  are responsible for low turnover products
-- Fruits & Vegetables  category has the most expired products
-- Arabica coffee brings in the most revenue   while Fruits & Vegetables category brings in the most revenue 
+- Multiple high-demand products such as Sushi Rice, Arabica Coffee, and Egg (Goose) are below their reorder levels, indicating an urgent need for restocking to avoid lost sales.
+- Products like Whole Wheat Flour, Swiss Cheese, and Orange have low inventory turnover rates, suggesting either overstocking or low demand. These products are tying up warehouse space and capital.
+- Items such as Grapes, Anchovies, and Cauliflower have not been reordered in a long time, possibly pointing to lapses in restocking or declining demand.
+-  Bread Flour, Pomegranate, and Cauliflower are among the best-selling products. Notably, Arabica Coffee stands out both in sales volume and revenue generation.
+-  There is a strong correlation between pricing tier and sales volume—low-priced products significantly outperform premium-tier items in volume sold, showing price sensitivity among customers.
+-  The Fruits & Vegetables category has the highest number of expired products (332 items).
+-  Arabica Coffee is the top revenue-generating product.
+-  The Fruits & Vegetables category generates the highest revenue overall.
+-  Suppliers such as Zoozzy, Twinte, Skyvu, and Tekfly are associated with low turnover items and may require performance evaluation.
 ---
 
 ## 🧾 Recommedation
-- Restock Critical Items Immediately to avoid stockouts, especially fast-selling products like Arabica Coffee.
-- Focus on Low-Price Tier Strategy since they perform best in sales volume.
-- Review and Adjust Reorder Quantities for slow-moving or expired items to prevent overstocking and waste.
-- Improve Expiration Management and prioritizing the sales of near-expiry products, especially in the Fruits & Vegetables category.
+- Reduce order quantities or consider discontinuing low-turnover products to free up resources.
+- Set up automated triggers to reorder products once they approach the reorder level to avoid stockouts of high-demand products.
+- Consider promotions or discounts for premium-tier products that are underperforming to increase demand.
+- Re-evaluate supplier contracts and performance metrics for those consistently linked with underperforming or expiring stock.
 
 ---
 
