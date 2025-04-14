@@ -1,5 +1,5 @@
 
-# 📊 Grocery_inventory_analysis
+# 📊 Grocery inventory analysis
 
 The objective of this analysis was to gain actionable insights into stock management, supplier performance, and sales trends using real-time product data. The analysis was conducted across key dimensions such as product performance (sales and turnover), supplier effectiveness, inventory efficiency, and stock expiry.
 
