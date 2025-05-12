@@ -85,6 +85,8 @@ ORDER BY lowest_inventory_Turnover ;
 SELECT ROUND(SUM(stock_quantity) * SUM(unit_price)) AS total_value
 FROM Grocery;
 ```
+![iv](https://github.com/user-attachments/assets/9a689f3f-90e8-46b0-be2a-58ff1b5182ae)
+
 
 ---
 
